@@ -115,12 +115,12 @@ Key outcomes:
 
 ### Feature Importance
 
-![Feature Importance](assets/feature_importance.png)
+![Feature Importance](assets/FeatureImportance.jpg)
 
 
 ### SHAP Analysis
 
-![SHAP Summary](assets/shap_summary.png)
+![SHAP Summary](assets/Shap Explaination 1.jpg)
 
 ---
 
