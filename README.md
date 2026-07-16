@@ -120,7 +120,7 @@ Key outcomes:
 
 ### SHAP Analysis
 
-![SHAP Summary](assets/Shap Explaination 1.jpg)
+![SHAP Summary](assets/ShapExplaination.jpg)
 
 ---
 
