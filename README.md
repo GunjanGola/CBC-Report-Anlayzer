@@ -1,33 +1,132 @@
-# CBC-Report-Anlayzer
-CBC Report Analyzer is a machine learning-based system that analyzes Complete Blood Count parameters and predicts health severity while providing model explanations using SHAP. The goal is to make ML predictions more interpretable for healthcare-related decision support.
-Problem Statement:
-Medical reports contain multiple parameters that are difficult for non-experts to interpret. This project aims to analyze CBC parameters and identify important factors contributing to severity predictions using explainable machine learning.
-Technologies Used :
-Python
-Pandas
-NumPy
-Scikit-learn
-SHAP
-Matplotlib
-Seaborn
-Jupyter Notebook
-Results :
-Model used : XGBoost
-Accuracy : 95.16%
-FEATURE IMPORTANCE
-=========================
-           Feature  Importance
-9   PLATELET COUNT    0.256019
-1      HAEMOGLOBIN    0.254651
-2              TLC    0.119376
-10           H.C.T    0.085444
-0           GENDER    0.061868
-13         M.C.H.C    0.042019
-3        POLYMORPH    0.029669
-8              RBC    0.028028
-12           M.C.H    0.027393
-4      LYMPHOCYTES    0.025963
-11           M.C.V    0.024513
-5      EOSINOPHILS    0.024464
-6        MONOCYTES    0.020593
-7        BASOPHILS    0.000000
+# 🩺 CBC Report Analyzer using Machine Learning & Explainable AI
+
+![Python](https://img.shields.io/badge/Python-3.10-blue)
+![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Scikit--learn-orange)
+![Explainable AI](https://img.shields.io/badge/XAI-SHAP-green)
+
+## 📌 Overview
+
+CBC Report Analyzer is a Machine Learning based project that analyzes **Complete Blood Count (CBC)** parameters and provides an interpretable assessment of health severity.
+
+The objective of this project is to build an ML pipeline that not only predicts outcomes but also explains **why a prediction was made** using Explainable AI techniques.
+
+---
+
+## 🎯 Problem Statement
+
+Medical reports contain multiple parameters that are difficult to interpret without expert knowledge.
+
+This project aims to:
+
+- Analyze CBC parameters
+- Identify important health indicators
+- Predict severity levels
+- Provide transparent model explanations using SHAP
+
+---
+
+## 🔄 Project Workflow
+
+```
+CBC Dataset
+      |
+      ↓
+Data Cleaning
+      |
+      ↓
+Exploratory Data Analysis
+      |
+      ↓
+Feature Engineering
+      |
+      ↓
+Machine Learning Model
+      |
+      ↓
+Severity Prediction
+      |
+      ↓
+SHAP Explainability
+```
+
+---
+
+## 🛠️ Technologies Used
+
+| Category | Tools |
+|----------|-------|
+| Programming | Python |
+| Data Processing | Pandas, NumPy |
+| Visualization | Matplotlib, Seaborn |
+| Machine Learning | Scikit-learn |
+| Explainable AI | SHAP |
+| Development | Jupyter Notebook |
+
+---
+
+## 🔍 Methodology
+
+### 1. Data Preprocessing
+
+- Data cleaning
+- Handling missing values
+- Feature selection
+- Feature scaling
+
+### 2. Exploratory Data Analysis
+
+Performed analysis to understand:
+
+- Feature distribution
+- Correlation between parameters
+- Important health indicators
+
+### 3. Model Development
+
+Steps followed:
+
+- Dataset splitting
+- Model training
+- Performance evaluation
+- Prediction generation
+
+### 4. Explainable AI
+
+Used **SHAP (SHapley Additive exPlanations)** to understand:
+
+- Feature contribution
+- Important CBC parameters
+- Model decision-making process
+
+---
+
+## 📊 Results & Insights
+
+Key outcomes:
+
+✅ Built an end-to-end ML workflow  
+✅ Developed a predictive system using CBC parameters  
+✅ Added interpretability using SHAP  
+✅ Identified important features influencing predictions  
+
+---
+
+## 📈 Visualizations
+
+### Feature Importance
+
+![Feature Importance](assets/feature_importance.png)
+
+
+### SHAP Analysis
+
+![SHAP Summary](assets/shap_summary.png)
+
+---
+
+## 🚀 Future Improvements
+
+- Deploy as a web application
+- Integrate real-time CBC report upload
+- Improve prediction accuracy with larger datasets
+- Add medical recommendation module
