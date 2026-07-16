@@ -25,6 +25,14 @@ This project aims to:
 
 ---
 
+## 📓 Notebook
+
+You can find the complete analysis notebook here:
+
+[CBC Report Analyzer Notebook](CBC_Report_Analyzer.ipynb)
+
+---
+
 ## 🔄 Project Workflow
 
 ```
